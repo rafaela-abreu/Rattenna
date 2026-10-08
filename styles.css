@@ -152,3 +152,29 @@ main > .section-shell:not(.hero)::after {
 .site-header {
   border-bottom: 4px solid #fff;
 }
+
+
+/* Faixas brancas suaves abaixo de cada tópico da página */
+main > .section-shell::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 18px;
+  width: min(100% - 48px, 1180px);
+  height: 6px;
+  transform: translateX(-50%);
+  border-radius: 999px;
+  background: linear-gradient(90deg, rgba(255, 255, 255, .72), #fff 12%, #fff 88%, rgba(255, 255, 255, .72));
+  box-shadow: 0 0 12px rgba(255, 255, 255, .12);
+  pointer-events: none;
+}
+
+/* A faixa do topo segue a mesma espessura visual */
+.site-header {
+  border-bottom: 6px solid #fff;
+}
+
+/* Evita duplicar a faixa antiga do herói */
+.hero-bottom-line {
+  display: none;
+}
