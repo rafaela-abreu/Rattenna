@@ -132,3 +132,17 @@ body{background:var(--paper);color:var(--ink)}
 .footer-bottom{color:#9eacc0}
 .footer-bottom b{color:#a9c3e7}
 @media(max-width:760px){.nav-links{background:#101d30;border-bottom-color:#344760;box-shadow:0 16px 28px rgba(0,0,0,.26)}}
+
+
+/* Separadores sutis entre os tópicos */
+main > .section-shell:not(.hero)::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 22px;
+  width: 132px;
+  height: 1px;
+  transform: translateX(-50%);
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, .9) 18%, rgba(255, 255, 255, .9) 82%, transparent);
+  pointer-events: none;
+}
