@@ -1,0 +1,9 @@
+# TODO — Rattenna Tecnologia
+
+- [x] **Página institucional responsiva:** criar uma presença digital profissional em português brasileiro para a Rattenna Tecnologia, otimizada para celular, tablet e desktop, com navegação clara entre apresentação, trajetória, serviços e contato.
+- [x] **Apresentação e contato:** apresentar Rattenna Tecnologia e Rafaela Abreu como Engenheira e Arquiteta de Software, usar a foto enviada e incluir telefone 61994431648, e-mail rattenna@gmail.com e links diretos para telefone, e-mail e WhatsApp.
+- [x] **Vitrine de serviços:** exibir automatização; correção de bugs e falhas de sistemas; gestão de anúncios e publicidade; programação; criação de sites e interfaces; e outras soluções de TI sem inventar especialidades específicas.
+- [x] **História e posicionamento:** incluir a trajetória informada, revisada gramaticalmente sem perder o sentido e o tom de excelência; manter a chamada “Cada minuto conta” e a ideia de que os próximos dois minutos podem marcar o começo.
+- [x] **Identidade visual:** manter rosa e violeta neon, branco e cinza, com preto/grafite de alto contraste; remover estrelas, chips e nomes sobrepostos na foto; remover pontos finais das frases visíveis; usar o cartão “Uma mente fora da caixa” preto com letras brancas.
+- [ ] **Vídeo original com som:** preservar o som do teclado no vídeo enviado e inseri-lo perto do rodapé; tentar autoplay audível contínuo (`autoplay`, `loop`, `playsinline`), sem foto de capa, sem controles e sem silenciar. Deixar claro que alguns navegadores podem bloquear áudio automático até uma interação.
+- [ ] **Pacote completo para GitHub Pages:** entregar um ZIP com `index.html`, `styles.css`, `app.js`, `rattenna-logo.svg`, `.nojekyll`, instruções README, foto e vídeo original com áudio dentro de `assets/`; usar caminhos relativos que funcionem também sob o subcaminho do repositório.
