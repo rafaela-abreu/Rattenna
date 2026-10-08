@@ -146,3 +146,9 @@ main > .section-shell:not(.hero)::after {
   background: linear-gradient(90deg, transparent, rgba(255, 255, 255, .9) 18%, rgba(255, 255, 255, .9) 82%, transparent);
   pointer-events: none;
 }
+
+
+/* Faixa branca contínua abaixo da logo e do cabeçalho */
+.site-header {
+  border-bottom: 4px solid #fff;
+}
