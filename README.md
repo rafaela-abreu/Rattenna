@@ -9,6 +9,9 @@ Este pacote contém o site completo e os arquivos de mídia usados pela página
 - `app.js` — menu, animações e vídeo acionado pela visibilidade da seção final
 - `rattenna-logo.svg` — logo principal
 - `favicon.svg` — ícone próprio da marca para a aba do navegador
+- `favicon-32x32.png` — ícone PNG para navegadores que não usam SVG
+- `favicon.ico` — ícone compatível com navegadores clássicos
+- `apple-touch-icon.png` — ícone para atalhos em iPhone e iPad
 - `.nojekyll` — indica ao GitHub Pages que publique os arquivos estáticos diretamente
 - `assets/rafaela-abreu.jpg` — foto usada no site
 - `assets/rafaela-trabalhando.mp4` — vídeo original com o som do teclado
