@@ -132,3 +132,21 @@ body{background:var(--paper);color:var(--ink)}
 .footer-bottom{color:#9eacc0}
 .footer-bottom b{color:#a9c3e7}
 @media(max-width:760px){.nav-links{background:#101d30;border-bottom-color:#344760;box-shadow:0 16px 28px rgba(0,0,0,.26)}}
+
+
+/* Remoção dos divisores visíveis do layout original */
+.site-header {
+  border-bottom: 0;
+}
+
+.hero-bottom-line {
+  display: none;
+}
+
+.signal-strip {
+  border-block: 0;
+}
+
+.work-video {
+  border-top: 0;
+}
