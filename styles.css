@@ -32,3 +32,6 @@
 .work-video-figure video{display:block;width:100%;height:auto;aspect-ratio:484/848;object-fit:cover;border-radius:26px;background:#efedf2;box-shadow:0 24px 60px rgba(47,33,65,.17)}
 .work-video-figure figcaption{margin-top:12px;color:var(--muted);font-size:12px;line-height:1.5;text-align:center}
 @media(max-width:760px){.work-video{padding:64px 0 72px}.work-video-grid{grid-template-columns:1fr;gap:27px}.work-video-figure{justify-self:center;width:min(78vw,340px)}.signal-strip-inner{justify-content:center;flex-wrap:wrap;gap:12px 16px;font-size:9px}.signal-strip-inner .signal-divider{height:11px}}
+
+.work-video-figure video{cursor:pointer}
+.work-video-figure video:focus-visible{outline:3px solid var(--violet);outline-offset:4px}
