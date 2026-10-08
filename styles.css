@@ -194,3 +194,16 @@ main > .section-shell::after {
   border-bottom-width: 7px;
   box-shadow: 0 6px 14px rgba(0, 0, 0, .28);
 }
+
+
+/* A faixa fica encostada na base azul de cada tópico */
+main > .section-shell::after {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 8px;
+  transform: none;
+  border-radius: 0 0 5px 5px;
+  background: linear-gradient(180deg, #ffffff 0%, #f5f8fc 58%, #dce6f2 100%);
+  box-shadow: 0 -5px 12px rgba(0, 0, 0, .34), 0 2px 0 rgba(255, 255, 255, .24);
+}
