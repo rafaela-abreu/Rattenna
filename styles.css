@@ -178,3 +178,19 @@ main > .section-shell::after {
 .hero-bottom-line {
   display: none;
 }
+
+
+/* Relevo das faixas: branco destacado com sombra inferior sutil */
+main > .section-shell::after {
+  width: calc(100% - 36px);
+  max-width: none;
+  height: 7px;
+  bottom: 18px;
+  background: linear-gradient(180deg, #fff 0%, #f8fbff 58%, #dfe8f3 100%);
+  box-shadow: 0 4px 0 rgba(255, 255, 255, .22), 0 9px 16px rgba(0, 0, 0, .3);
+}
+
+.site-header {
+  border-bottom-width: 7px;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, .28);
+}
