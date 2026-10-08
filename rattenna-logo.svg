@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="136" viewBox="0 0 520 136" role="img" aria-labelledby="title desc">
+  <title id="title">Rattenna Tecnologia</title>
+  <desc id="desc">Monograma RT geométrico em rosa e violeta, com wordmark Rattenna Tecnologia</desc>
+  <defs>
+    <linearGradient id="brand" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ff3dbb"/>
+      <stop offset="1" stop-color="#8c42ff"/>
+    </linearGradient>
+  </defs>
+  <rect x="4" y="8" width="118" height="118" rx="34" fill="url(#brand)"/>
+  <path d="M33 91V43h29c15 0 24 8 24 21 0 9-5 16-14 19l18 20H68L53 85h-5v18H33Zm15-34v15h13c6 0 10-3 10-8s-4-7-10-7H48Z" fill="#fff"/>
+  <path d="M83 43h25v12H96v48H82V55H68V43h15Z" fill="#fff" opacity=".82"/>
+  <path d="M102 24h9v16h-9z" fill="#d9b7ff"/>
+  <text x="148" y="74" fill="#292531" font-family="Arial, Helvetica, sans-serif" font-size="48" font-weight="700" letter-spacing="-2">RATTENNA</text>
+  <text x="151" y="104" fill="#797383" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" letter-spacing="6">TECNOLOGIA</text>
+  <path d="M151 117h68" stroke="url(#brand)" stroke-width="3" stroke-linecap="round"/>
+</svg>
